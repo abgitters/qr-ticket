@@ -24,7 +24,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="" element={<Main getMainData={getTimeData} />} />
+        <Route path="/qr-ticket" element={<Main getMainData={getTimeData} />} />
         <Route
           path="user-details"
           element={<UserDetails getUserData={getUserData} />}
